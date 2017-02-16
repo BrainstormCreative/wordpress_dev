@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) COLLATE utf8mb4_unicode_ci NOT NULL,
   `user` varchar(60) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2017-02-16 21:24:02','Successfully created a new repository.','init','Brainstorm'),(2,'2017-02-16 21:26:58','Error pushing changes to the remote repository.','error','Brainstorm'),(3,'2017-02-16 21:29:53','Error pushing changes to the remote repository.','error','Brainstorm'),(4,'2017-02-16 21:35:44','Error pushing changes to the remote repository.','error','Brainstorm'),(5,'2017-02-16 21:41:11','Successfully pushed 1 commit to origin/master.','push','Brainstorm'),(6,'2017-02-16 21:43:01','Successfully backed up the database.','backup','Brainstorm'),(7,'2017-02-16 21:43:02','Committed <a href=\"http://brainstorm.solutions/dev/wp-admin/admin.php?page=revisr_view_commit&commit=e368633&success=true\">#e368633</a> to the local repository.','commit','Brainstorm'),(8,'2017-02-16 21:43:08','Successfully pushed 1 commit to origin/master.','push','Brainstorm');
+INSERT INTO `wp_revisr` VALUES (1,'2017-02-16 21:24:02','Successfully created a new repository.','init','Brainstorm'),(2,'2017-02-16 21:26:58','Error pushing changes to the remote repository.','error','Brainstorm'),(3,'2017-02-16 21:29:53','Error pushing changes to the remote repository.','error','Brainstorm'),(4,'2017-02-16 21:35:44','Error pushing changes to the remote repository.','error','Brainstorm'),(5,'2017-02-16 21:41:11','Successfully pushed 1 commit to origin/master.','push','Brainstorm'),(6,'2017-02-16 21:43:01','Successfully backed up the database.','backup','Brainstorm'),(7,'2017-02-16 21:43:02','Committed <a href=\"http://brainstorm.solutions/dev/wp-admin/admin.php?page=revisr_view_commit&commit=e368633&success=true\">#e368633</a> to the local repository.','commit','Brainstorm'),(8,'2017-02-16 21:43:08','Successfully pushed 1 commit to origin/master.','push','Brainstorm'),(9,'2017-02-16 21:56:14','Successfully backed up the database.','backup','Brainstorm'),(10,'2017-02-16 21:56:28','Successfully pushed 1 commit to origin/master.','push','Brainstorm');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
