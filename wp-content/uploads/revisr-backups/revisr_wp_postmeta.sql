@@ -20,12 +20,12 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_postmeta` WRITE;
 /*!40000 ALTER TABLE `wp_postmeta` DISABLE KEYS */;
-INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default'),(9,6,'_edit_last','1'),(10,6,'_edit_lock','1487278914:1'),(13,8,'_edit_last','1'),(14,8,'_edit_lock','1487281164:1'),(17,10,'_edit_last','1'),(18,10,'_edit_lock','1487281303:1'),(21,12,'_edit_last','1'),(22,12,'_edit_lock','1487282145:1');
+INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default'),(9,6,'_edit_last','1'),(10,6,'_edit_lock','1487278914:1'),(13,8,'_edit_last','1'),(14,8,'_edit_lock','1487281164:1'),(17,10,'_edit_last','1'),(18,10,'_edit_lock','1487281303:1');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
